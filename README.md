@@ -5,36 +5,7 @@ EmployeePaySlipProject is a Java-based application designed to manage and genera
 
 Project Structure:
 The project is organized into the following packages and classes:
-EmployeePaySlipProject/
-│
-├── App/
-│   └── Main.java
-│
-├── dbconnection/
-│   └── DatabaseConnection.java
-│
-├── exception/
-│   ├── DatabaseException.java
-│   ├── InvalidInputException.java
-│   └── PaySlipGenerationException.java
-│
-├── interfaces/
-│   └── (Interface files go here)
-│
-├── model/
-│   ├── Employee.java
-│   ├── GSTRecord.java
-│   └── PaySlip.java
-│
-├── service/
-│   ├── EmployeeServiceImpl.java
-│   ├── GSTServiceImpl.java
-│   └── PaySlipServiceImpl.java
-│
-├── utility/
-│   └── SalaryUtils.java
-│
-└── (Other necessary files, like configuration files or scripts)
+![Screenshot 2025-03-30 103042](https://github.com/user-attachments/assets/099e648b-337b-4847-acc6-c1893e574eb8)
 
 
 App:
@@ -177,6 +148,8 @@ Launch MySQL Workbench:
 Open the application and connect to your MySQL Server using the root credentials.
 
 Create a New Database:
+![Screenshot 2025-03-30 104125](https://github.com/user-attachments/assets/273b9c16-2ea7-458c-bdbc-a00a6ea93336)
+
 
 Go to the "Database" menu and select "Create Schema."
 
@@ -210,13 +183,6 @@ Run Your Application:
 
 Ensure your Java application interacts with the database correctly by running it and testing features like employee record management and pay slip generation.
 
-EmployeePaySlip
-|
-|-- Tables
-|   |-- Employees
-|   |-- GST
-|   |-- Payslips
-|   |-- SalaryComponents
 
 ![Screenshot 2025-03-30 104704](https://github.com/user-attachments/assets/e0c76ffa-5f2a-484c-ac77-cc90c9a4a53c)
 ![Screenshot 2025-03-30 104644](https://github.com/user-attachments/assets/6c04bbdc-dd42-4188-8310-380c31f6d101)
